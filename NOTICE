@@ -1,0 +1,22 @@
+NOTICE - Procedencia y atribucion
+=================================
+
+Este software (web26-098 TechFlow Win Manager) es una OBRA DERIVADA de:
+
+    TechFlow_Suite_Pro
+    Autor:    Luis Fernando Garcia Enciso (LUISFGARCIAE)
+    Fuente:   https://github.com/LUISFGARCIAE/TechFlow_Suite_Pro
+    Licencia: MIT
+
+La idea original y el diseno funcional del toolkit son suyos. Esta version es
+una refactorizacion del script monolitico original (779 lineas) hacia una
+arquitectura modular de 10 submodulos, con logging estructurado y validacion
+de inputs.
+
+El aviso de copyright del autor original se conserva en el archivo LICENSE,
+como exige la licencia MIT.
+
+Este proyecto se desarrolla de forma independiente: NO es un fork de GitHub y
+no comparte historia de git con el repositorio original. Las mejoras del
+upstream se portan manualmente cuando aplican, dado que las arquitecturas
+divergieron.
