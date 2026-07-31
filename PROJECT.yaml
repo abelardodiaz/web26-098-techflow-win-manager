@@ -1,5 +1,5 @@
 project:
-  code: web26-077
+  code: web26-098
   name: TechFlow Win Manager
   version: 0.1.0
   status: development
@@ -7,7 +7,7 @@ project:
 
 server:
   location: wsl
-  base_path: /mnt/c/Users/abela/prweb/web26-077-tool-techflow-win-manager
+  base_path: /mnt/c/Users/abela/prweb/web26-098-techflow-win-manager
 
 service:
   type: none
@@ -19,5 +19,34 @@ urls:
 stack:
   primary: powershell
 
-updated_at: "2026-04-07T12:00:00"
-updated_by: claude-077
+updated_at: "2026-07-30T00:00:00"
+updated_by: claude-996
+
+# ---------------------------------------------------------------------------
+# ORIGEN Y POLITICA DE UPSTREAM
+# ---------------------------------------------------------------------------
+upstream:
+  repo: https://github.com/LUISFGARCIAE/TechFlow_Suite_Pro
+  autor: "Luis Fernando Garcia Enciso (LUISFGARCIAE)"
+  licencia: MIT
+  la_idea_original_es_suya: true
+
+  politica_contribucion: "NO abrir PRs ni issues upstream. El usuario ya aporto
+    observaciones y no fueron recibidas. Se crece por cuenta propia. Esta linea
+    existe para que ningun agente futuro 'ayude' contribuyendo alla."
+
+  politica_atribucion: "SIEMPRE reconocer la autoria original: en README, en
+    LICENSE (doble copyright) y en cualquier publicacion o difusion. No es
+    opcional ni por cortesia - la MIT lo exige y ademas la idea fue suya."
+
+  politica_novedades: "Revisar periodicamente el upstream y portar lo que valga
+    la pena. Divergieron en arquitectura: upstream sigue monolitico
+    (TECHFLOW_SUITE_1.ps1), este fork es modular. Traer una novedad es PORTARLA
+    a modules/, no mergear."
+
+  estado_al_2026_07_30:
+    ultimo_push_upstream: "2026-06-11"
+    commits_desde_el_fork: 27
+    ultimo_release: "v5.9 (2026-04-20)"
+    stars: 40
+    pendiente: "nadie ha revisado que traer de esos 27 commits"
