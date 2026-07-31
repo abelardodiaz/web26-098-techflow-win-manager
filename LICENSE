@@ -1,10 +1,6 @@
 MIT License
 
-Trabajo original (TechFlow_Suite_Pro):
 Copyright (c) 2026 LUISFGARCIAE (Luis Fernando Garcia Enciso)
-https://github.com/LUISFGARCIAE/TechFlow_Suite_Pro
-
-Trabajo derivado (web26-098 TechFlow Win Manager, refactorizacion modular):
 Copyright (c) 2026 Abelardo Diaz
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,3 +20,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Nota de procedencia (no forma parte de los terminos de la licencia)
+
+Este software es una obra derivada de TechFlow_Suite_Pro, creado por Luis
+Fernando Garcia Enciso y publicado bajo licencia MIT en:
+
+    https://github.com/LUISFGARCIAE/TechFlow_Suite_Pro
+
+La idea original y el diseno funcional son suyos. Esta version es una
+refactorizacion del script monolitico original hacia una arquitectura modular.
