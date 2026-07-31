@@ -1,0 +1,59 @@
+LOGS DE DIAGNOSTICO - REINICIO INESPERADO
+=========================================
+
+Fecha del incidente: 13 de enero de 2026
+Hora aproximada: Entre 1:30 PM y 1:32 PM
+
+EVENTOS RELEVANTES DEL SISTEMA
+-------------------------------
+
+TimeCreated: 13/01/2026 01:32:35 p. m.
+EventID: 6005
+Mensaje: Se inicio el servicio de Registro de eventos.
+
+TimeCreated: 13/01/2026 01:32:07 p. m.
+EventID: 1074
+Proceso: C:\WINDOWS\servicing\TrustedInstaller.exe
+Usuario: NT AUTHORITY\SYSTEM
+Motivo: Sistema operativo: actualizacion (planeada)
+Codigo de motivo: 0x80020003
+Tipo de apagado: Reinicio
+
+TimeCreated: 13/01/2026 01:32:08 p. m.
+EventID: 6006
+Mensaje: Se detuvo el servicio de Registro de eventos.
+
+TimeCreated: 13/01/2026 01:30:52 p. m.
+EventID: 6005
+Mensaje: Se inicio el servicio de Registro de eventos.
+
+TimeCreated: 13/01/2026 01:30:28 p. m.
+EventID: 6006
+Mensaje: Se detuvo el servicio de Registro de eventos.
+
+TimeCreated: 13/01/2026 01:30:02 p. m.
+EventID: 1074
+Proceso: C:\WINDOWS\uus\AMD64\MoUsoCoreWorker.exe
+Usuario: NT AUTHORITY\SYSTEM
+Motivo: Sistema operativo: service pack (planeado)
+Codigo de motivo: 0x80020010
+Tipo de apagado: Reinicio
+
+ACTUALIZACION INSTALADA
+------------------------
+
+TimeCreated: 13/01/2026 01:34:51 p. m.
+Mensaje: Instalacion correcta: Windows instalo correctamente la siguiente actualizacion:
+         2026-01 Actualizacion de seguridad (KB5074109) (26200.7623)
+
+TimeCreated: 13/01/2026 01:01:19 p. m.
+Mensaje: Instalacion iniciada: Windows comenzo a instalar la actualizacion siguiente:
+         2026-01 Actualizacion de seguridad (KB5074109) (26200.7623)
+
+CONCLUSION
+----------
+
+Windows Update inicio e instalo automaticamente la actualizacion de seguridad mensual KB5074109
+sin notificar al usuario, causando dos reinicios consecutivos que interrumpieron el trabajo.
+
+No era una actualizacion critica o de emergencia que justificara el reinicio forzado.
